@@ -8,5 +8,8 @@ router.register('booking/tables',BookingView, basename='tables')
 router.register('menu-item',MenuView, basename='menu')
 
 urlpatterns = [
-#    path('', include('router.urls'))
+
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
+
 ]+router.urls
