@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'djoser',
     'Restaurant',
     'rest_framework.authtoken',
-    'djoser'
+
 ]
 
 MIDDLEWARE = [
